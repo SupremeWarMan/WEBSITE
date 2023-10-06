@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Me</title>
 </head>
 <body>
-    <form action="process_form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name">
-        
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
+    <header>
+        <h1>Contact Me</h1>
+    </header>
 
-        <label for="message">Message:</label>
-        <textarea name="message" id="message"></textarea>
-        
-        <input type="submit" value="Submit">
-    </form>
+    <main>
+        <section class="contact-form">
+            <!-- Replace the iframe with your specified URL -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfszByMLJ5KpBfkGu8i5jgf3ix8Bt9tFV-r64eWp15sa6I5mw/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feel free to reach out to me using the embedded contact form above.</p>
+    </footer>
 </body>
 </html>

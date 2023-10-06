@@ -1,0 +1,40 @@
+/* Reset some default browser styles */
+body, h1, p, iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Apply styles to the main content area */
+main {
+    padding: 20px;
+}
+
+/* Apply styles to the contact form section */
+.contact-form {
+    text-align: center;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the embedded iframe */
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
