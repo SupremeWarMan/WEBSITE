@@ -1,20 +1,19 @@
-/* style.css */
-
 /* Reset some default styles */
 body, h1, p {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Set background color and text color for the entire page */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background:  #fcdf88;
+    color: #FF6B6B; /* Pink text color */
 }
 
 /* Style the header */
 header {
-    background-color: #007BFF;
+    background-color: #fcee72; /* yellow background */
     color: white;
     text-align: center;
     padding: 20px;
@@ -25,7 +24,7 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #FFFAF0; /* Ivory background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -39,12 +38,36 @@ img {
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #FF6B6B; /* Pink text color */
 }
 
 /* Style the description */
 .description {
     padding: 10px;
     border-radius: 5px;
-    background-color: #f0f0f0;
+    background-color: #FFFAF0; /* Ivory background */
     text-align: justify;
+    color: #FF6B6B; /* Pink text color */
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Style table rows */
+tr {
+    border-bottom: 1px solid #FFD700; /* Yellow border */
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Add some background color to even rows */
+tr:nth-child(even) {
+    background-color: #FFFAF0; /* Ivory background */
 }
