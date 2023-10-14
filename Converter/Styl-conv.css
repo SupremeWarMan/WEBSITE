@@ -12,13 +12,21 @@ body {
 }
 
 /* Header styling */
-h1 {
-    font-size: 36px;
-    color: #FF6B6B; /* Pink color */
-    text-transform: uppercase;
-    margin: 20px 0;
+
+header {
+    background-color: #FFFAF0; /* yellow background */
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FF6B6B; /* Pink text color */
+}
+
+/* Center the conte
 /* Converter styling */
 .converter {
     display: flex;
