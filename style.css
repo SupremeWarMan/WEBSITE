@@ -13,7 +13,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: #fcee72; /* yellow background */
+    background-color: #FFFAF0; /* yellow background */
     color: white;
     text-align: center;
     padding: 20px;
@@ -33,6 +33,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+h2 {
+    margin-bottom: 20px;
+    color: #f74343; /* Pink text color */
+}
 
 /* Center the heading */
 h1 {
@@ -45,7 +49,7 @@ h1 {
 .description {
     padding: 10px;
     border-radius: 5px;
-    background-color: #FFFAF0; /* Ivory background */
+    background-color: #c5242400; /* Ivory background */
     text-align: justify;
     color: #FF6B6B; /* Pink text color */
 }
@@ -58,16 +62,11 @@ table {
 
 /* Style table rows */
 tr {
-    border-bottom: 1px solid #FFD700; /* Yellow border */
+    border-bottom: 2px solid #FFD700; /* Yellow border */
 }
 
 /* Style table cells */
 td {
     padding: 10px;
     text-align: left;
-}
-
-/* Add some background color to even rows */
-tr:nth-child(even) {
-    background-color: #FFFAF0; /* Ivory background */
 }
