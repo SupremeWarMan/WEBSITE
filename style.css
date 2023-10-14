@@ -93,10 +93,13 @@ main {
     text-align: center;
 }
 
+
+
+
 /* the login website */ 
 #dialogText {
     color: white;
-    background-color: #333333;
+    background-color: #FFD700;
 }
 
 #dialogWrap {
@@ -191,5 +194,5 @@ main {
 }
 .error {
     display: none;
-    color: red;
+    color: rgb(0, 0, 0);
 }
